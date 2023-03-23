@@ -1,0 +1,151 @@
+.tx_history_container {
+  width: 700px;
+  margin: auto;
+  margin-top: 3rem;
+  padding: 1em;
+}
+
+@media screen and (max-width: 955px) {
+  .tx_history_container {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .tx_history_container {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .tx_history_container {
+    width: 350px;
+  }
+}
+
+.table_container {
+  border: 1px solid #cfd9f0;
+  border-radius: 8px;
+
+  margin-bottom: 1em;
+  
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  align-items: center;
+}
+
+.table {
+  display: flex;
+  gap: 16px;
+  min-width: 360px;
+  max-height: 550px;
+  overflow: scroll;
+}
+
+.column {
+  margin-bottom: 1em;
+  width: 100%;
+  min-height: 140px;
+  white-space: nowrap;
+}
+
+.row {
+  padding: 12px;
+  height: 3em;
+  margin: auto;
+  width: 100%;
+  font-weight: 500;
+  max-width: 200px;
+  overflow: scroll;
+  text-overflow: ellipsis;
+}
+
+.title {
+  color: #949698;
+  font-weight: 700;
+}
+
+.price {
+  font-weight: 700;
+}
+
+.blue_text {
+  color: #0057da;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.tab_group {
+  display: flex;
+  height: 40px;
+  width: 144px;
+  border: 1px solid #ecf0f9;
+  border-radius: 8px;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.button_group {
+  display: flex;
+}
+
+.button_clicked {
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  padding: 6px 7px;
+}
+
+.button_unclicked {
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  padding: 6px 7px;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.transaction_search_container {
+  margin-bottom: 1em;
+  display: flex;
+  gap: 1rem;
+  position: relative;
+
+}
+
+.input {
+  height: 48px;
+  width: 100%;
+  border: 1px solid #cfd9f0;
+  border-radius: 8px;
+  padding: 8px;
+  padding-left: 30px;
+}
+
+.search_icon{
+  position: absolute;
+  top: 13px;
+  left: 6px;
+  cursor: pointer;
+}
+
+
+
+.input_field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.warning {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 6em;
+  text-align: center;
+}

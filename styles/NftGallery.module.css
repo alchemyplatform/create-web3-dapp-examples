@@ -1,0 +1,161 @@
+.nft_gallery_page_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 3rem;
+  align-items: center;
+}
+
+
+.nft_gallery{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1224px;
+  align-items: center;
+  padding: 0 1.5rem;
+  margin-bottom: 2rem
+}
+
+
+.nfts_display {
+  display: grid;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  border-radius: 8px;
+  padding-top: 1rem;
+}
+
+.header {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.header_info {
+  color: #4e4e4e;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.card_container {
+  background-color: #fff;
+  width: 100%;
+  width: 236px;
+  max-height: 384px;
+  border-radius: 12px;
+  padding: 8px;
+  border: 1px solid #CFD9F0;
+
+
+}
+
+.image_container {
+ height: 204px;
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+}
+
+.image_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+.info_container{
+  display: flex;
+  flex-direction: column;
+  row-gap: .3rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.symbol_contract_container{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+.symbol_container{
+    display: flex;
+    align-items: center;
+}
+.contract_container{
+  display: flex;
+  column-gap: .3rem;
+  font-size: 12px;
+  cursor: pointer;
+  align-items: center;
+
+}
+
+.title_container {
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+}
+
+.title_container h3 {
+  font-weight: bold;
+}
+
+.symbol_container {
+  display: flex;
+  column-gap: .3rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+
+.description_container {
+  margin-top: 0.5em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 90%;
+  font-size: 14px;
+  color: #4e4e4e;
+}
+
+@media screen and (max-width: 992px) {
+  .nfts_display {
+    
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 750px) {
+  .nfts_display {
+    
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 560px) {
+  .nfts_display {
+    
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.button_container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.button_black{
+  text-align: center;
+  padding: .6rem 1rem;
+
+  border-radius: 3px;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+

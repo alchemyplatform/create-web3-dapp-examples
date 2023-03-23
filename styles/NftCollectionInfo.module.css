@@ -1,0 +1,109 @@
+
+.collection_container {
+  width: 814px;
+  padding: 2em;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.header {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.image {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.collection_name {
+  display: flex;
+  font-weight: 700;
+  font-size: 20px;
+  gap: 4px;
+  align-items: center;
+}
+
+.company_name {
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  gap: 4px;
+}
+
+.socials_container {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  gap: 4px;
+}
+
+.verified_icon {
+  width: 24px;
+  height: 24px;
+}
+
+.twitter_icon {
+  width: 28px;
+  height: 28px;
+}
+
+.discord_icon {
+  width: 20px;
+  height: 16px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  color: #4e4e4e;
+}
+
+.link {
+  display: inline;
+  color: #0057da;
+  text-decoration: underline;
+}
+
+.data_container {
+  display: flex;
+  gap: 2em;
+}
+
+.data_point_container {
+  margin-top: 2em;
+}
+
+.data_title {
+  font-weight: 700;
+  font-size: 16px;
+  color: #4e4e4e;
+}
+
+.data_point {
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
+}
+
+@media screen and (max-width: 955px) {
+  .collection_container {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .collection_container {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .collection_container {
+    width: 350px;
+  }
+  .header {
+    display: block;
+  }
+}

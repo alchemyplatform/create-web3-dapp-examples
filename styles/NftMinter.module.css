@@ -1,0 +1,145 @@
+.page_flexBox {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #cfd9f0;
+  max-width: 814px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 3rem;
+  border-radius: 12px;
+}
+
+.page_container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.page_header {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.nft_media_container {
+  position: relative;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+.nft_media {
+  position: relative;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  z-index: 1;
+  width: 350px;
+}
+
+.nft_info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 50%;
+  margin: auto;
+}
+
+.nft_title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.nft_author {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.nft_instructions_title {
+  color: #949698;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.break {
+  margin-block: 1em;
+}
+
+.button {
+  border-radius: 8px;
+  background-color: black;
+  padding: 8px 10px;
+  font-weight: 700;
+  margin-top: 1em;
+  border: none;
+  color: white;
+  width: 150px;
+}
+
+.transaction_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+}
+.tx_hash {
+  color: rgb(0, 98, 255);
+}
+
+.isMinting {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+
+.attribute_input_label {
+  font-weight: 700;
+  font-size: 14px;
+  color: #4e4e4e;
+  margin-block: 0.5em;
+}
+
+.address_container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+@media screen and (max-width: 560px) {
+  .page_container {
+    display: block;
+  }
+
+  .page_flexBox {
+    display: block;
+    width: 500px;
+  }
+
+  .nft_info {
+    width: 90%;
+    font-size: 24px;
+  }
+
+  .nft_media_container {
+    width: 90%;
+    margin-bottom: 2em;
+  }
+
+  .text {
+    font-size: 24px;
+  }
+
+  .nft_author {
+    font-size: 20px;
+  }
+
+  .nft_instructions_title {
+    font-size: 20px;
+  }
+}
